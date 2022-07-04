@@ -1,0 +1,19 @@
+.list {
+    padding: 15px;
+    list-style: none;
+        
+}
+
+.author {
+    margin-bottom: 15px;
+}
+
+.item {
+padding: 15px;
+border: 1px solid grey;
+    border-radius: 10px;
+}
+
+.item:not(:last-child) {  
+margin-bottom: 15px;
+}

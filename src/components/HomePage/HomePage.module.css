@@ -1,0 +1,17 @@
+.list {
+    padding-left: 20px;
+    
+}
+
+.link {
+color: rgb(10, 53, 210);
+}
+
+.item:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.active {
+    composes: link;
+    color: blueviolet;
+  }

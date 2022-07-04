@@ -1,0 +1,65 @@
+.arrowLinkBox {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    color: blueviolet;
+    
+}
+
+.arrowLink {
+    margin-right: 10px;
+}
+.container {
+    display: flex;
+    margin-bottom: 20px;
+
+}
+
+.poster {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 4px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.list {
+    padding: 15px;
+    list-style: none;
+}
+
+.item:not(:last-child) {
+margin-bottom: 15px;
+}
+
+.title {
+    margin-bottom: 15px;
+}
+
+.genreBox {
+    display: flex;
+}
+
+.movieInfoBox {
+    /* border-top: 1px solid grey; */
+    /* border-bottom: 1px solid grey; */
+    padding: 15px;
+}
+
+.movieInfo {
+    margin-bottom: 20px;
+    font-size: large;
+    font-weight: bold;
+}
+
+.movieInfoLink:not(:last-child) {
+    margin-bottom: 5px;
+}
+
+.routeLink {
+     color: blueviolet;
+}
+
+.routeLinkActive {
+    color: rgb(255, 71, 99);
+}

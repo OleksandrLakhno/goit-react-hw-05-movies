@@ -1,0 +1,12 @@
+.list {
+    padding-left: 20px;
+    
+}
+
+.link {
+color: blueviolet;
+}
+
+.item:not(:last-child) {
+    margin-bottom: 10px;
+}
